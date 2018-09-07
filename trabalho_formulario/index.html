@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>depois eu vejo</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css">	
+		<script src="js/index.js"></script>
+		
+		
+	</head>
+	
+	
+	<body>
+	<h1>Formulário de solicitação de informação (Pessoa Física) </h1><p id="sic" ></p>
+	<h2>As informações abaixo são obrigatórias</h2>
+			<div id="form">
+			
+				Nome : <input type="text" name="nome" value="" size="100" pattern="[a-z\s]+$" required="yes"><br>
+				
+				CPF: <input type="text" name="cpf" value="" maxlength="14" size="40"><br>
+				
+				<p>Ou, se preferir, informar outro documento de identificação (RG, CNH, 	Passaporte, RNE ou outro documento válido. Se a opção for por RG, indicar órgão emissor e UF):	</p><br>
+				
+				Tipo do documento:<input type="text" name="document" size="40" >N°<input type="text" name="Numero" size="20"><br>
+				
+				Endereço eletrônico (e-mail) :<input type="email" name="email" size="80"> OU Endereço fisico (Rua, nº, complemento, Bairro):<input type="text" name="endereco_rua" size="100"><br>
+				
+				Cidade: <input type="text" name="cidade" size="50"> Estado:<input type="text" name="Estado " size="30" > UF: <input type="text" name="UF" size="20"><br>
+				
+				CEP:<input type="text" name="CEP" size="30"> Pais:<input type="text" name="pais" size="70"><br>
+				
+			</form>
+		</div>
+	<p>Os campos a seguir são opcionais e se preenchidos contribuirão para a melhoria de nossos serviços</p>
+		<div id="form2">
+			
+			Sexo: Masculino<input type="radio" name="sexo" value="masculino"/> Feminino<input type="radio" name="sexo" value="false" > Data de nascimento <input type="date" name="data_nascimento" size="30">
+			
+			Escolaridade:
+			<input type="radio" name="escolaridade">	Sem instrução formal <input type="radio" name="escolaridade"> 
+
+		
+		
+		
+		
+		
+		</div>
+		
+		
+		
+		
+		
+		
+		
+	</body>
+</html>
