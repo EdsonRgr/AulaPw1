@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cadastro- Transporte</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <div class="log-form">
+  <h2>Faça seu cadastro</h2>
+  <form action="cadastro.php" method="POST">
+    <input type="email" title="email" placeholder="E-mail" name="email" />
+    <input type="text" title="nome" placeholder="Nome" name="nome" />
+    <input type="password" title="username" placeholder="Senha" />
+    
+     <label>Informe sua cidade: </label><select name="example">
+      <option value="saopaulo">São Paulo</option>
+      <option value="riodejaneiro">Rio de Janeiro</option>
+      <option value="parana">Parana</option>
+    </select>
+
+
+    <button type="submit" class="btn">Cadastrar </button>
+    <a class="forgot" href="login.html">Ja tem um cadastro ? clique aqui para logar</a>
+  </form>
+</div>
+
+</body>
+</html>
